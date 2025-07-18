@@ -41,6 +41,7 @@ export default function Skills() {
               <li>PHP OOP</li>
               <li>MySQL</li>
               <li>MongoDB</li>
+              <li>REST API</li>
               <li>Server Management</li>
               <li className="text-cyan-400 animate-blink">|</li>
               <li className="text-cyan-400 -ml-4">{'}'}</li>
@@ -58,6 +59,7 @@ export default function Skills() {
               <li>Divi Addon Development</li>
               <li>Block Theme Development</li>
               <li>Gutenberg Development</li>
+              <li>GraphQL</li>
               <li className="text-cyan-400 animate-blink">|</li>
               <li className="text-cyan-400 -ml-4">{'}'}</li>
             </ul>
