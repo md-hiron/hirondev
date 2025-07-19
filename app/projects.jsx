@@ -1,34 +1,34 @@
 export default function Projects() {
   const projects = [
     {
-      title: 'Portfolio Website',
-      description: 'Personal portfolio site built with Next.js and Tailwind.',
-      link: 'https://github.com/your-username/portfolio',
+      title: 'WorldPTA',
+      description: 'A Belgium-based business organization\'s website built using WordPress and ACF blocks.',
+      link: 'https://worldpta.org/',
     },
     {
-      title: 'Custom WordPress Theme',
-      description: 'Fully custom theme built for a client project.',
-      link: 'https://yourclientsite.com',
+      title: 'Needtech Inc',
+      description: 'A USA-based Digital tech agency\'s website built with WordPress and Elementor Custom addon',
+      link: 'https://www.needtechinc.com/',
     },
     {
-      title: 'E-commerce App',
-      description: 'React + MongoDB powered full-stack online store.',
-      link: 'https://github.com/your-username/ecommerce-app',
+      title: 'Cities Global Project',
+      description: 'A website for a book built with WordPress, GraphQL, Next js',
+      link: 'https://www.citiesprojectglobal.com',
     },
     {
-      title: 'Elementor Addon',
-      description: 'Custom addon widget built for Elementor plugin.',
-      link: 'https://github.com/your-username/elementor-addon',
+      title: 'Sitemap Generator',
+      description: 'A custom plugin that generate custom sitemap for post and other custom post type',
+      link: 'https://github.com/md-hiron/wp-sitemap-generator',
     },
     {
-      title: 'GSAP Scroll Website',
-      description: 'Landing page animated with GSAP + ScrollMagic.',
-      link: 'https://yourgsappage.com',
+      title: 'Tasty swip',
+      description: 'A WordPress plugin that allows users to like or dislike product items and recommends future products based on their preferences.',
+      link: 'https://github.com/md-hiron/tasty',
     },
     {
-      title: 'Blog CMS',
-      description: 'Custom CMS built with PHP, MySQL, and Tailwind.',
-      link: 'https://github.com/your-username/blog-cms',
+      title: 'Woocommerce Product Addon',
+      description: 'A WordPress plugin that allows admin to add product addons',
+      link: 'https://github.com/md-hiron/wc-product-addon',
     },
   ];
 
@@ -42,7 +42,7 @@ export default function Projects() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">My Projects</h2>
           <p className="text-gray-400 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-            Here are some of the works I've built — using modern stacks like Next.js, WordPress, GSAP, and more.
+            Here are some of the works I've built — using modern stacks like Next.js, WordPress, PHP, and more.
           </p>
         </div>
 

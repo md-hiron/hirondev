@@ -3,10 +3,8 @@ import {
   FaLinkedin,
   FaTelegramPlane,
   FaWhatsapp,
-  FaTwitter
+  FaGithub
 } from 'react-icons/fa';
-
-
 
 export default function Footer() {
   return (
@@ -20,7 +18,7 @@ export default function Footer() {
         {/* Social Icons */}
         <div className="flex gap-4 text-xl" data-aos="fade-left">
           <Link
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/md-hiron-mia-872485214/"
             target="_blank"
             aria-label="LinkedIn"
             className="hover:text-cyan-400 transition"
@@ -28,15 +26,7 @@ export default function Footer() {
             <FaLinkedin />
           </Link>
           <Link
-            href="https://t.me/your-telegram"
-            target="_blank"
-            aria-label="Telegram"
-            className="hover:text-cyan-400 transition"
-          >
-            <FaTelegramPlane />
-          </Link>
-          <Link
-            href="https://wa.me/yourwhatsapplink"
+            href="https://wa.link/9z29aj"
             target="_blank"
             aria-label="WhatsApp"
             className="hover:text-cyan-400 transition"
@@ -44,12 +34,12 @@ export default function Footer() {
             <FaWhatsapp />
           </Link>
           <Link
-            href="https://x.com/yourusername"
+            href="https://github.com/md-hiron"
             target="_blank"
-            aria-label="X (Twitter)"
+            aria-label="GitHub"
             className="hover:text-cyan-400 transition"
           >
-            <FaTwitter />
+            <FaGithub />
           </Link>
         </div>
       </div>

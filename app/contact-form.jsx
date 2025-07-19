@@ -35,7 +35,7 @@ export default function ContactForm() {
       const result = await res.json();
 
       if (result.success) {
-        setStatus('✅ Message sent successfully!');
+        setStatus('✅ Message sent successfully! I’ll get back to you shortly.');
         form.reset();
       } else {
         setStatus(`❌ ${result.message || 'Something went wrong.'}`);
