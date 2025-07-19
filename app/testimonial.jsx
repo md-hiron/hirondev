@@ -4,8 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
-import Image from 'next/image';
-
 export default function Testimonials() {
   const testimonials = [
     {
@@ -66,13 +64,13 @@ export default function Testimonials() {
           <SwiperSlide key={index}>
             <div className="relative h-full flex flex-col justify-between min-h-[250px] bg-white/5 border border-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg text-left">
               {/* Upwork Logo */}
-              <Image
+              <img
                 src="/upwork.png"
                 alt="Upwork"
                 width={150}
                 height={150}
-                className="absolute top-4 right-4 opacity-20"
               />
+
 
               {/* Feedback */}
               <p className="text-gray-200 mb-6 leading-relaxed pt-8 flex-1">
