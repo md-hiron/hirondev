@@ -11,6 +11,7 @@ export default function ContactForm() {
     setStatus('');
     setLoading(true);
 
+    const token = await grecaptcha.execute('6LciWYgrAAAAAMBUP3aa6o7pHAEHj1_c3ja6siWu', { action: 'submit' });
     const form = e.target;
     const formData = new FormData(form);
 
@@ -25,6 +26,7 @@ export default function ContactForm() {
     }
 
     formData.append('form_token', 'jhfiuw&^uiwher^E#(hsaidufh');
+    formData.append('recaptchaToken', token);
 
     try {
       const res = await fetch('https://hirondev.com/send/send-email.php', {

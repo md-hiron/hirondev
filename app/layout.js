@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./header";
 import Footer from "./footer";
 import AOSWrapper from "./aos-wrapper";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src={`https://www.google.com/recaptcha/api.js?render=6LciWYgrAAAAAMBUP3aa6o7pHAEHj1_c3ja6siWu`}
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#121417] text-white font-sans`}
       >
