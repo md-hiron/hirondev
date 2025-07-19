@@ -9,29 +9,29 @@ import Image from 'next/image';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'John Doe',
-      feedback: 'Hiron was amazing to work with. He delivered exactly what I needed, and faster than expected.',
+      name: 'Agoura, United States',
+      feedback: 'Great work product and great communication. I would definitely recommend him to others. Thank you MD Hiron for your help on this project.',
       rating: 5,
     },
     {
-      name: 'Sarah Chen',
-      feedback: 'Professional, fast, and pixel-perfect delivery. Highly recommended for any WordPress or Next.js project.',
-      rating: 4,
-    },
-    {
-      name: 'Carlos Rivera',
-      feedback: 'Great communication and top-quality code. Looking forward to working again!',
+      name: 'Tom Gal, Israel',
+      feedback: 'He\'s a highly professional developer who delivers quality work quickly and efficiently. His speed and expertise have been a great asset to our projects!',
       rating: 5,
     },
     {
-      name: 'Emily Stone',
-      feedback: 'Incredible attention to detail and smooth delivery. Our site runs beautifully.',
+      name: 'Ashis, India',
+      feedback: 'I have worked with Hiron multiple times and he has never disappointed me..Highly recommended for frontend development!',
       rating: 5,
     },
     {
-      name: 'Omar Khan',
-      feedback: 'Very knowledgeable in both frontend and backend. Would hire again.',
-      rating: 4,
+      name: 'Virginia, United States',
+      feedback: 'Excellent developer - completed work on time, gave weekly updates on progress, and transition of work to live environment was seamless. Would absolutely hire again',
+      rating: 5,
+    },
+    {
+      name: 'Kanata, Canada',
+      feedback: 'One of very few freelancers I have worked with who went the extra mile to ensure the work was done well. He promptly responds to messages, is polite, collaborative and is a very good web developer.',
+      rating: 5,
     },
   ];
 
@@ -75,7 +75,7 @@ export default function Testimonials() {
               />
 
               {/* Feedback */}
-              <p className="text-gray-200 text-sm mb-6 leading-relaxed pt-8 flex-1">
+              <p className="text-gray-200 mb-6 leading-relaxed pt-8 flex-1">
                 “{item.feedback}”
               </p>
 
