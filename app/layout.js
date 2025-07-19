@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script
-          src={`https://www.google.com/recaptcha/api.js?render=6LciWYgrAAAAAMBUP3aa6o7pHAEHj1_c3ja6siWu`}
+          src={`https://www.google.com/recaptcha/api.js?render=6Le7Z4grAAAAADQHrgivW_qnuaMexQzcHWLVJJFM`}
           strategy="afterInteractive"
         />
       </head>
