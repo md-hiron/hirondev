@@ -32,14 +32,14 @@ export default function Hero() {
 
         <div className="flex justify-center gap-4 flex-wrap" data-aos="fade-up" data-aos-delay="200">
           <a
-            href="/resume.pdf"
+            href="/hirondev.pdf"
             target="_blank"
             className="px-6 py-3 rounded-lg border border-white/20 bg-white/10 backdrop-blur-md text-white font-medium hover:bg-white/20 transition duration-300 shadow-md"
           >
             Resume
           </a>
           <a
-            href="#contact"
+            href="https://www.upwork.com/freelancers/~019c9b67f5d8db9753"
             className="px-6 py-3 rounded-lg bg-cyan-500 hover:bg-cyan-600 text-white font-semibold transition duration-300"
           >
             Upwork Profile
