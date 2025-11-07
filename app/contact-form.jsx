@@ -110,7 +110,7 @@ export default function ContactForm() {
         className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 rounded-md transition disabled:opacity-50"
         disabled={loading}
       >
-        {loading ? 'Sending...' : 'Send Message'}
+        {loading ? 'Sending...' : 'Request a Quote'}
       </button>
 
       {status && <p className="text-sm mt-2 text-gray-300 transition-all">{status}</p>}

@@ -23,24 +23,24 @@ export default function Hero() {
       {/* Content Layer */}
       <div className="relative z-30 max-w-4xl text-center px-4 pt-24 md:pt-32">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight glass-text" data-aos="fade-up">
-          Hi, I'm Hiron — Full-stack Web Developer
+          Hi, I'm Hiron — a Freelance Full-Stack Web Developer
         </h1>
 
         <p className="text-lg md:text-xl text-gray-300 mb-10" data-aos="fade-up" data-aos-delay="100">
-          I build modern, scalable web applications with Next.js, Tailwind CSS, and powerful backend integrations.
+          I help businesses build fast, modern websites using Next.js, Tailwind CSS, and WordPress. Let’s turn your idea into a scalable web experience.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap" data-aos="fade-up" data-aos-delay="200">
           <a
-            href="/hirondev.pdf"
-            target="_blank"
-            className="px-6 py-3 rounded-lg border border-white/20 bg-white/10 backdrop-blur-md text-white font-medium hover:bg-white/20 transition duration-300 shadow-md"
+            href="#contact"
+            className="px-6 py-3 rounded-lg bg-cyan-500 hover:bg-cyan-600 text-white font-semibold transition duration-300"
           >
-            Resume
+            Let’s Work Together
           </a>
           <a
             href="https://www.upwork.com/freelancers/~019c9b67f5d8db9753"
-            className="px-6 py-3 rounded-lg bg-cyan-500 hover:bg-cyan-600 text-white font-semibold transition duration-300"
+            target="_blank"
+            className="px-6 py-3 rounded-lg border border-white/20 bg-white/10 backdrop-blur-md text-white font-medium hover:bg-white/20 transition duration-300 shadow-md"
           >
             Upwork Profile
           </a>

@@ -22,15 +22,19 @@ export default function AboutAnimatedContent() {
             Get to Know Me
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed mb-6">
-            I'm a creative and detail-oriented web developer who loves turning ideas into clean, responsive digital experiences. With expertise in
+            I'm a results-driven web developer who transforms ideas into fast, responsive, and modern web experiences.
+            Skilled in
             <span className="text-cyan-400 font-semibold"> Next.js</span>,
             <span className="text-cyan-400 font-semibold"> Tailwind CSS</span>, and
-            <span className="text-cyan-400 font-semibold"> WordPress</span>, I build websites that are both visually striking and technically robust.
+            <span className="text-cyan-400 font-semibold"> WordPress</span>, I build scalable websites that look great and perform flawlessly.
           </p>
-          <p className="text-gray-400 text-base">
-            From crafting high-performance SPAs to customizing CMS-based platforms, I bridge the gap between modern JavaScript frameworks and the flexibility of WordPress.
-            Whether you need a blazing-fast React site or a scalable WordPress backend, I’ve got you covered.
+
+          <p className="text-gray-400 text-lg">
+            I collaborate remotely with clients across the
+            <span className="text-cyan-400 font-medium"> United States</span>, <span className="text-cyan-400 font-medium">Europe</span>, and beyond — helping startups and small businesses bring their digital ideas to life.
           </p>
+
+
 
           <div
             className="mt-8 bg-white/5 backdrop-blur-md p-5 rounded-lg border border-white/10 shadow-inner"

@@ -7,7 +7,7 @@ export default function Skills() {
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">My Skillset</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Tech Stack</h2>
           <p className="text-gray-400 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
             A carefully curated toolbox of technologies I rely on to build full-stack, scalable, and creative web experiences.
           </p>
