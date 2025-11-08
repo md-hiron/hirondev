@@ -9,7 +9,7 @@ export default function AboutAnimatedContent() {
             className="max-w-100 max-h-100 rounded-2xl overflow-hidden border border-white/20 shadow-lg"
           >
             <img
-              src="/hiron.png"
+              src="/hiron.webp"
               alt="Hiron's profile"
               className="w-full h-full object-cover grayscale-50 hover:grayscale-0 transition duration-500"
             />

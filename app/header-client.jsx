@@ -30,12 +30,12 @@ export default function HeaderClient() {
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-[#121417]/70 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-white" data-aos="fade-right">
+        <Link href="/" className="text-2xl font-bold text-white">
           Hiron<span className='text-cyan-400'>Dev</span>
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-6 text-white text-sm md:text-base" data-aos="fade-left">
+        <nav className="hidden md:flex space-x-6 text-white text-sm md:text-base" >
           {navItems.map((item, index) => (
             <a
               key={index}
@@ -48,7 +48,7 @@ export default function HeaderClient() {
         </nav>
 
         {/* Mobile Toggle Button */}
-        <button onClick={toggleMenu} className="md:hidden text-white z-[60] relative" data-aos="fade-left">
+        <button onClick={toggleMenu} className="md:hidden text-white z-[60] relative">
           <Menu size={28} />
         </button>
       </div>

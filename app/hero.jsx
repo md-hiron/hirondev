@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-bg-2.jpg"
+          src="/hero-bg-2.webp"
           alt="Background"
           className="w-full h-full object-cover"
         />
@@ -22,15 +22,15 @@ export default function Hero() {
 
       {/* Content Layer */}
       <div className="relative z-30 max-w-4xl text-center px-4 pt-24 md:pt-32">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight glass-text" data-aos="fade-up">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight glass-text">
           Hi, I'm Hiron — a Freelance Full-Stack Web Developer
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-300 mb-10" data-aos="fade-up" data-aos-delay="100">
+        <p className="text-lg md:text-xl text-gray-300 mb-10">
           I help businesses build fast, modern websites using Next.js, Tailwind CSS, and WordPress. Let’s turn your idea into a scalable web experience.
         </p>
 
-        <div className="flex justify-center gap-4 flex-wrap" data-aos="fade-up" data-aos-delay="200">
+        <div className="flex justify-center gap-4 flex-wrap">
           <a
             href="#contact"
             className="px-6 py-3 rounded-lg bg-cyan-500 hover:bg-cyan-600 text-white font-semibold transition duration-300"
