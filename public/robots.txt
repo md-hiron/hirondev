@@ -1,0 +1,13 @@
+# ===============================
+# Robots.txt for HironDev.com
+# ===============================
+
+User-agent: *
+Allow: /
+
+# Host (optional, not officially supported by all crawlers)
+# Google ignores this, but Yandex and Bing still recognize it.
+Host: hirondev.com
+
+# Sitemap
+Sitemap: https://hirondev.com/sitemap.xml
