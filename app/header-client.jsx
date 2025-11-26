@@ -11,12 +11,14 @@ export default function HeaderClient() {
   const closeMenu = () => setIsOpen(false);
 
   const navItems = [
-    { href: '#', label: 'Home' },
-    { href: '#about', label: 'About' },
-    { href: '#skills', label: 'Skills' },
-    { href: '#projects', label: 'Projects' },
-    { href: '#testimonials', label: 'Testimonials' },
-    { href: '#contact', label: 'Contact' },
+    { href: '/#', label: 'Home' },
+    { href: '/#about', label: 'About' },
+    { href: '/#services', label: 'Services' },
+    { href: '/#skills', label: 'Skills' },
+    { href: '/#projects', label: 'Projects' },
+    { href: '/#testimonials', label: 'Testimonials' },
+    { href: '/#case-study', label: 'Case study' },
+    { href: '/#contact', label: 'Contact' },
   ];
 
   // Close menu on route hash change

@@ -1,4 +1,5 @@
 import About from "./about";
+import CaseStudy from "./case-study";
 import Contact from "./contact";
 import Header from "./header";
 import Hero from "./hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Testimonials />
+      <CaseStudy />
       <Contact />
     </main>
   );

@@ -20,13 +20,13 @@ export default function Skills() {
             <h3 className="text-xl font-semibold text-cyan-400 mb-4">Front-end</h3>
             <ul className="space-y-1 text-gray-300 text-sm font-mono pl-4">
               <li className="text-cyan-400 -ml-4">{'{'}</li>
-              <li>Bootstrap</li>
-              <li>Tailwind CSS</li>
               <li>JavaScript</li>
               <li>jQuery</li>
               <li>React</li>
               <li>Next.js</li>
               <li>GSAP & ScrollMagic</li>
+              <li>Bootstrap</li>
+              <li>Tailwind CSS</li>
               <li className="text-cyan-400 animate-blink">|</li>
               <li className="text-cyan-400 -ml-4">{'}'}</li>
             </ul>
@@ -55,6 +55,7 @@ export default function Skills() {
               <li className="text-cyan-400 -ml-4">{'{'}</li>
               <li>Custom Theme Development</li>
               <li>Custom Plugin Development</li>
+              <li>Headless CMS</li>
               <li>Elementor Addon Development</li>
               <li>Divi Addon Development</li>
               <li>Block Theme Development</li>
