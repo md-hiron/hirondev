@@ -1,11 +1,12 @@
 import { getAllPosts, getPostBySlug, getFeaturedImage } from "@/utils/api";
-export async function generateStaticParams() {
-  const posts = await getAllPosts(3);
-
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+export function generateStaticParams() {
+  return [
+    { slug: "why-website-speed-matters-how-to-optimize-your-website" },
+    { slug: "headless-wordpress-future-business-impression" },
+    { slug: "bricks-builder-vs-elementor" },
+  ];
 }
+
 
 export default async function SingleBlogPage({ params }) {
   const post = await getPostBySlug(params.slug);

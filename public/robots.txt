@@ -1,13 +1,9 @@
-# ===============================
-# Robots.txt for HironDev.com
-# ===============================
-
 User-agent: *
 Allow: /
 
-# Host (optional, not officially supported by all crawlers)
-# Google ignores this, but Yandex and Bing still recognize it.
-Host: hirondev.com
+# Prevent indexing of internal Next.js files
+Disallow: /_next/
+Disallow: /api/
 
-# Sitemap
+# Sitemap location
 Sitemap: https://hirondev.com/sitemap.xml
